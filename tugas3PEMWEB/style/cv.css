@@ -1,0 +1,143 @@
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F1E5D1;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .kotak {
+            width: 80%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            padding: 40px;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            border-left: 15px solid #2C3E50;
+        }
+
+        .sidebar {
+            padding-right: 40px;
+            border-right: 2px solid #F1E5D1;
+        }
+
+        .gambar {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 30px;
+            border: 5px solid #2C3E50;
+        }
+
+        .name-highlight {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: #2C3E50;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #7F8C8D;
+            margin: 0 0 30px 0;
+            font-weight: 600;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            color: #2C3E50;
+            font-size: 1.4em;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #F1E5D1;
+            margin: 30px 0 20px;
+            text-transform: uppercase;
+        }
+
+        .bio-text {
+            color: #444;
+            line-height: 1.7;
+            font-size: 0.95rem;
+            margin: 0 0 25px 0;
+        }
+
+        .contact-info p {
+            margin: 12px 0;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .contact-info i {
+            width: 25px;
+            color: #2C3E50;
+            font-size: 1.1em;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .skill-item {
+            background: #F1E5D1;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .timeline-item {
+            margin-bottom: 30px;
+            padding-left: 20px;
+            border-left: 2px solid #2C3E50;
+        }
+
+        .timeline-date {
+            color: #7F8C8D;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .timeline-title {
+            font-weight: 600;
+            color: #2C3E50;
+            margin: 5px 0;
+        }
+
+        .timeline-subtitle {
+            color: #444;
+            margin: 5px 0 10px;
+            font-size: 0.95em;
+        }
+
+        .main-content {
+            padding-left: 40px;
+        }
+
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .language-bar {
+            width: 70%;
+            height: 8px;
+            background: #F1E5D1;
+            border-radius: 4px;
+        }
+
+        .language-progress {
+            height: 100%;
+            background: #2C3E50;
+            border-radius: 4px;
+        }
